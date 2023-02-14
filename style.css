@@ -13,9 +13,11 @@ div {
     margin: 0 auto; 
     border-bottom-left-radius: 120px; 
     border-bottom-right-radius: 120px;
+    text-align: center;
 }
 
 img {
+    border: 3px solid white;
     border-radius: 50%; 
     margin-top: 100px;
     width: 150px; 
@@ -30,6 +32,26 @@ h3 {
     background-color: darkgray; 
     padding: 5px; 
     border-radius: 10px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: justify;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.sobre, .objetivos {
+    text-align: justify;
 }
 
 
