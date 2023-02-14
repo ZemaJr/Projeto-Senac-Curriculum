@@ -46,12 +46,25 @@ td {
     text-align: justify;
 }
 
-.cabecalho {
-    text-align: center;
+.contato {
+    border: 1px solid blue;
+    display: inline-flex;
+    align-items: center;
+    }
+
+span {
+    padding: 10px;
 }
 
 .sobre, .objetivos {
     text-align: justify;
+}
+
+svg {
+    width: 15px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 15px;
 }
 
 
