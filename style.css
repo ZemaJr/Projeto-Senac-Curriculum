@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+    font-family: 'Montserrat';
+    color: rgb(67, 76, 85);
+}
+
 body {
     background-color: #f6f6f2; 
     width: 800px; 
-    border: 1px solid black; 
     margin: 50px auto; 
-    padding: 10px;
+    padding: 0 10px;
 }
 
-div {
+.foto {
     background-color: darkgray; 
     width: 250px; 
     height: 300px; 
@@ -14,6 +20,12 @@ div {
     border-bottom-left-radius: 120px; 
     border-bottom-right-radius: 120px;
     text-align: center;
+}
+
+.contato {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 60px;
 }
 
 img {
@@ -24,8 +36,19 @@ img {
     height: 150px;
 }
 
-h1, h2, h3 {
+section {
+    width: 100%;
+    display: inline-flex;
+}
+
+h3 {
     text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -36,26 +59,29 @@ h3 {
 
 table {
     width: 100%;
+    margin-bottom: 60px;
 }
 
 th {
     text-align: left;
 }
 
-td {
+p, td {
     text-align: justify;
-    padding: 10px;
+    font-family: 'Arial';
+}
+
+td {
+    width: 50%;
 }
 
 address {
     display: inline-flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
+    font-size: 14px;
 }
 
 span {
-    padding: 10px;
+    padding: 5px;
 }
 
 .sobre, .objetivos {
@@ -64,12 +90,13 @@ span {
 
 svg {
     width: 15px;
+    height: 15px;
     border: 1px solid black;
     padding: 3px;
     border-radius: 15px;
 }
 
-
-
-
-
+#demo {
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
